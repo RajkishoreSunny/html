@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<title>sportsclub.com</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>www.SPORTSCLUB.com</title>
+    <link rel="icon" href="pics/logo.jpg">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link  rel="stylesheet" href="responsing design.css">-->
+
+
+
+
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+
+
+
+
+
+</head>
+
+<body>
+
+<header >
+<ul class="ul1">
+
+<li class="desktop"><a href="SPORTS.html">GALLERY</a></li>
+<li class="desktop"><a href="about.html">ABOUT</a></li>
+<li class="desktop"><a href="SPORTS.html">SPORTS</a></li>
+
+<li class="desktop"><a href="signin.html">SUBSCRIPTION</a> </liclass="desktop">
+
+<li class="desktop"><a href="CONTACT.html">CONTACT US</a></li>
+
+<li class="desktop gif"><a href="main.html"></a></li\>
+<li class="desktop logo"><a href="main.html" ></a></li>
+ 
+</ul>
+</header>
+
+
+ <h2 style="color:WHITE" ALIGN="CENTER">WELCOME TO SPORTS CLUB</h2>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="pics/e1.jpg" style="width:100%">
+  <div class="text"><H2>FOOTBALL</H2></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="pics/e2.jpg" style="width:100%">
+  <div class="text"><H2>SWIMMING</H2></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="pics/e3.jpg" style="width:100%">
+  <div class="text"><H2>BADMINTON</H2></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+<section class="sss">
+    <ul>
+        
+  
+    
+</ul>
+
+      <table width="100%" border="0">
+<style>
+body{background-image:url("pics/F2.jpg");}
+</style>
+<tr>
+<td colspan="3" bgcolor="#b5cdcb3" align="center">
+<h1 style= "color:red"><a href="signin.html"> START TRAINING NOW</a></h1>
+</td>
+</tr>
+<tr valign="top">
+<td bgcolor="white" width="10"  align="center">
+<H1><b>CLUBS</b></H1>
+<a href="sports.html">VOLLEYBALL</a><br/><br />
+<a href="sports.html">FOOTBALL</a><br/><br />
+<a href="sports.html">BADMINTON</a><BR/><br />
+<a href="sports.html">SWIMMING</a><br /><br/>
+</td>
+<td bgcolor="white" width="200" height="100" align="center">
+<H1><b>ABOUT THE CLUB</b></H1><BR/>
+Owners,
+
+SHASHI SHEKHAR,ADITYA ADARSH JHA and RAJ KISHOR KUMAR had one vision….
+
+Creating a sports club to provide full supports to follow your passion and help you being the better version of yourself.
+</td>
+</tr>
+
+
+
+</table>                                      
+
+<footer>
+    <div>
+   
+    <h1>SPORTS CLUB</h1>
+    
+    <h2>-be the best</h2>
+</div>
+  <ul>
+      <li><a href="about.html">About us</a></li>
+     <li><a href="contact.html">Contact us</a></li >
+        
+
+     
+  </ul>
+  <h1 class="kla">JOIN US ON</h1>
+  <a href=""fa fa-facebook"></a>
+<a href="" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/ARYAN_THAKUR_2000/" class="fa fa-instagram"></a>
+
+    
+
+</footer>
+    
+</body>
+</html>
+

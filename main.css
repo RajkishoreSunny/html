@@ -1,0 +1,209 @@
+body{
+    background-color:white;
+    color: black;
+margin: 0;
+padding: 0;
+font-style:italic;
+font-family: sans-serif;}
+header{
+    background-color: black;
+    color: whitesmoke;
+ padding: 20px;
+ text-align: center;
+ /*background-image: url("pics/zfront/23.jpg");
+ height: 50px;
+ background-size: 100%;
+ background-position: center;
+ background-repeat:no-repeat ;
+*/
+}
+.ul1 li{
+    color: whitesmoke;
+    display: inline-block;
+    text-align: right;
+    
+
+}
+.ul1 li:hover{
+    text-decoration: underline;
+    
+}
+.ul1 li a{
+    color: white;
+    margin: 30px;
+    text-decoration:none;
+
+
+
+}
+header .logo a{
+  
+    background-image: url("pics/zfront/b.png");
+    background-size: 170px;
+    
+height: 200px;
+width: 169px;
+background-repeat: no-repeat;
+    display: inline-block;
+    text-indent:-999999999999999999px;
+    position: absolute;
+    margin: -50px 15px 15px 1350px;
+    left: 0;
+    display:inline;
+}
+
+.ul1 li:first-child{
+    margin-left: -800px;   
+   }
+   header .gif a{
+       background-image: url("pics/logo3.jpg");
+       height: 70px;
+       width: 700px;
+       background-repeat: no-repeat;
+       text-indent: -9999999999999999999999999999999999px;
+       position: absolute;
+       margin: -50px 15px 15px 800px;
+       left: 0;
+       display: inline;
+   }
+   .sss ul li{
+       display: inline-block;
+       padding: -30px;
+   
+   }
+   .sss ul li a{
+       text-decoration:underline;
+       margin: 10px ;
+       
+   }
+   .ss ul li a button{
+    text-decoration:underline;
+    
+   }
+
+.sec1 {
+    background-image: url("pics/e2.jpg");
+    height: 100px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+   padding: 220px;
+   margin-top: 0.2cm;
+
+}
+
+.sec1 .page{
+    color:whitesmoke;
+    font-size: 0.8cm;
+   
+   
+  
+}
+.sec1 .page2{
+    color: whitesmoke;
+    font size: 0.8cm;
+}
+
+
+.tpc1 h1{
+    text-align: center;
+    font-style: normal;
+    font-size: 1cm;
+    background-color: white;
+
+}
+.sec2{
+    
+    padding: 0cm;
+    display:flex ;
+    flex-direction: row;
+    background-color: white;
+    color: black;
+
+    
+
+}
+.sec2 a{
+    color: black;
+}
+.sec2 figure{
+  
+    width: 300px;
+    text-align: center;
+    font-size: 0.7cm;
+    font-weight: bold;
+    font-style: normal;
+
+}
+.sec2 figure img{
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+}
+ footer{
+    background-color: black;
+    padding: 10px 20px;
+    color:white;
+}
+footer div {
+    text-align: center;
+  
+}
+footer div h1{
+    text-decoration-line: underline;
+    font-size: 1cm;
+    font-style: normal;
+}
+
+
+footer li{
+    color: whitesmoke;
+    display: inline-block;
+    margin-left: 0.5cm ;
+    text-align: center;
+
+}
+
+footer li:hover{
+    text-decoration: underline;
+    
+}
+footer li a{
+    color:white;
+    margin: 50px;
+    text-decoration:none;
+    font-size: 1cm;
+    font-style: normal;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+footer ul{
+    text-align: center;
+}
+footer .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: auto;
+  }
+  
+  footer .fa:hover {
+      opacity: 0.7;
+  }
+  footer .fa-facebook {
+    background: black;
+    color: white;
+  }
+  footer .fa-twitter {
+    background: black;
+    color: white;
+  }
+  footer .fa-instagram {
+    background: black;
+    color: white;
+  }
+ 
